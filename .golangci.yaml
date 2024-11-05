@@ -1,0 +1,29 @@
+linters:
+  enable:
+    - bodyclose
+    - govet
+    - staticcheck
+    - gosec
+    - errcheck
+    - gosimple
+    - gofmt
+    - goimports
+    - stylecheck
+    - gocyclo
+    - gocritic
+    - misspell
+    - ineffassign
+    - unparam
+    - whitespace
+    - wsl
+    - mnd
+    - loggercheck
+    - goimports
+    - godot
+  enable-all: true
+  fast: true
+
+# linters-settings:
+#   whitespace:
+#     multi-if: true
+#     multi-func: true
